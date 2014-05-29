@@ -5,7 +5,7 @@ Go语言验证码示例
 mfreetype.go是我自己加的一个文件，里面有个函数MeasureString，用来计算字符串所点宽度的(高度不知道怎么算)。
 freetype\luxi-fonts目录下存放的是字体，可以从网上下些字体库来用。
 
-页面地址：http://localhost:8080/
-验证码地址:http://localhost:8080/pic
+页面地址：http://localhost:8080/<br/>
+验证码地址:http://localhost:8080/pic<br/>
 
 交流QQ群：184572648
