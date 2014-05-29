@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Untitled Page</title>
+</head>
+<body>
+<table>
+<tr><td>验证码</td><td><img  onclick="FreshValidtionCode()" id="imgValidationCode" src="/pic" /> &nbsp;<a href="javascript:void(0)" onclick="FreshValidtionCode()">看不清</a></td></tr>
+</table>
+
+</body>
+</html>
+<script type="text/javascript" language="javascript">
+function FreshValidtionCode()
+{
+ document.getElementById("imgValidationCode").src="/pic?"+Math.random();
+}
+</script>
